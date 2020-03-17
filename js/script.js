@@ -1,5 +1,4 @@
-let computerWins = 0,
-  playerWins = 0;
+let computerWins, playerWins;
 
 const buttonRock = document.getElementById('button-rock'),
   buttonPaper = document.getElementById('button-paper'),
@@ -40,7 +39,6 @@ function buttonClicked(argButtonName) {
     }
     printMessage('Wygrane gracza: ' + playerWins + ', wygrane komputera: ' + computerWins);
   }
-
 
   const playerMove = argButtonName,
     randomNumber = Math.floor(Math.random() * 3 + 1),
