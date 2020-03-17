@@ -1,4 +1,5 @@
-let computerWins, playerWins;
+let computerWins = 0, 
+  playerWins = 0;
 
 const buttonRock = document.getElementById('button-rock'),
   buttonPaper = document.getElementById('button-paper'),
